@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #666;
+    height: 60px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.nav-items-left {
+    display: flex;
+    width: 25%; 
+    justify-content: flex-start;
+}
+
+.nav-item-left {
+    width: 100px;
+    height: 20px;
+    background-color: #ccc;
+    margin-right: 10px; 
+}
+
+.nav-items-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%; 
+}
+
+.nav-item-right {
+    width: 25px;
+    height: 20px;
+    background-color: #ccc;
+    margin-left: 5px;
+}
+
+.nav-arrow {
+    color: #666;
+    margin-left: 330px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.main-left {
+    width: 70%;
+    height: 300px;
+    background-color: #666;
+}
+
+.main-right {
+    width: 28%;
+    height: 300px;
+    background-color: #999;
+    margin-top: 5px;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 20px;
+    width: 70%; 
+}
+
+.card {
+    width: calc(20% - 12px); 
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 100px; 
+    background-color: #ccc; 
+}
+
+.text-placeholder {
+    padding: 10px;
+}
+
+.text-line {
+    height: 10px;
+    background-color: #e0e0e0;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.text-line.large {
+    width: 100%; 
+}
+
+.text-line.medium {
+    width: 70%; 
+}
+
+.text-line.small {
+    width: 50%; 
+    margin-bottom: 0; 
+}
+
+.article {
+    width: 28%;
+}
+
+
+.article .thick-line{
+    height: 30px;
+    background-color: #999;
+}
+
+.article .thin-line{
+    height: 5px;
+    background-color: #999;
+}
+
+.article .container {
+    display: flex; 
+    align-items: center; 
+    padding: 20px;
+    height: 100px; 
+}
+
+.article .left-box {
+    width: 100px; 
+    height: 100px; 
+    background-color: #ccc; 
+    margin-right: 20px; 
+}
+
+.article .right-box {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 80px; 
+    flex-grow: 1; 
+}
+
+.article .line {
+    height: 8px; 
+    background-color: #ccc; 
+    width: 100%; 
+}
+
+
